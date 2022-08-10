@@ -1,5 +1,5 @@
 # Shortener URL
-![Index page about Shortener URL](./public/shortener-url.png)
+![Index page about Shortener URL](./public/img/shortener-url.png)
 
 A Shortener URL Demo web application for users that can use this website to shorten all the long URL  
 If you are interested in above please try it quickiy!!!
