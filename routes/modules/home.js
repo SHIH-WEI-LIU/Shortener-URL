@@ -14,13 +14,13 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
   const originUrl = req.body.url
   const shortUrl = generateUrl()
-  const origin = req.headers.origin
+  const host = req.headers.host
   Url.findOne({ originUrl })
     .then(data =>
       data ? data : Url.create({ shortUrl, originUrl }) //若data不同則重新create shortUrl
     )
     .then(data =>
-      res.render("index", { origin, shortUrl: data.shortUrl, originUrl })//再把剛create進入DB的資料render出來
+      res.render("index", { host, shortUrl: data.shortUrl, originUrl })//再把剛create進入DB的資料render出來
     )
     .catch(error => console.error(error))
 })
