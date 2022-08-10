@@ -1,8 +1,8 @@
 # Shortener URL
 ![Index page about Shortener URL](./public/shortener-url.png)
 
-A restaurant Demo web application for users that can use this website to search all the foods  around the restaurant location of Demo website 
-If you are interested in above please try it to discover which do you like !!!
+A Shortener URL Demo web application for users that can use this website to shorten all the long URL  
+If you are interested in above please try it quickiy!!!
 
 ## Features
 - Users can paste whose long URL convert to short URL
